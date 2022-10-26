@@ -5,3 +5,7 @@
     margin-right: 10px
 }
 
+.cellResults {
+    min-width: 2000px;
+    overflow-x: scroll;
+}

@@ -285,6 +285,7 @@ class App extends React.Component{
       }
       catch {
           document.getElementById("prompt_img").style.display = "none"
+          document.getElementById("finished").style.display = "block"
           alert("Finished!!!")
       }
   }
@@ -294,15 +295,18 @@ class App extends React.Component{
     return (
         <div className="App">
 
+            <h1>THE CELL PROJECT</h1>
+
           <div>
 
-            <h1>Prompt</h1>
+            <h3>Use the buttons below to identify this image</h3>
             <img src={img[this.state.current_item]} alt="" id={"prompt_img"}/>
+              <h2 style={{display: "none"}} id={"finished"}>Finished!!</h2>
 
           </div>
 
           <div>
-            <h1>Controls</h1>
+            <br/>
             <button onClick={() => this.submit("interphase")}>Interphase</button>
             <button onClick={() => this.submit("prophase")}>Prophase</button>
             <button onClick={() => this.submit("metaphase")}>Metaphase</button>
@@ -311,6 +315,8 @@ class App extends React.Component{
 
           </div>
 
+            <div className={"cellResults"}>
+                <h1>Results</h1>
 
           <div className={"cellResultList"}>
             <h1>Interphase</h1>
@@ -367,6 +373,8 @@ class App extends React.Component{
             <h1>Telophase</h1>
 
           </div>
+
+            </div>
         </div>
     );
   }
