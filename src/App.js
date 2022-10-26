@@ -275,19 +275,22 @@ class App extends React.Component{
   }
 
   submit(selection) {
-      try {
+
+
           if (data[this.state.current_item].answer === selection) {
+              console.log((parseInt(this.state.current_item) + 1).toString())
               document.getElementById(this.state.current_item).style.display = "block"
+
+              if ((parseInt(this.state.current_item) + 1 > Object.keys(data).length)) {
+                  document.getElementById("prompt_img").style.display = "none"
+                  document.getElementById("finished").style.display = "block"
+              }
               this.setState({current_item: (parseInt(this.state.current_item) + 1).toString()})
           } else {
               alert("Try again...")
           }
-      }
-      catch {
-          document.getElementById("prompt_img").style.display = "none"
-          document.getElementById("finished").style.display = "block"
-          alert("Finished!!!")
-      }
+
+
   }
 
 
