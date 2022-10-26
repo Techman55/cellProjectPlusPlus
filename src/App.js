@@ -42,17 +42,17 @@ import React from "react";
 const data = {
 
     "1": {
-        "answer": "prophase"
+        "answer": "metaphase"
     },
 
 
     "2": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "3": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -62,12 +62,12 @@ const data = {
 
 
     "5": {
-        "answer": "prophase"
+        "answer": "anaphase"
     },
 
 
     "6": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -77,12 +77,12 @@ const data = {
 
 
     "8": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "9": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -92,7 +92,7 @@ const data = {
 
 
     "11": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -102,17 +102,17 @@ const data = {
 
 
     "13": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "14": {
-        "answer": "prophase"
+        "answer": "telophase"
     },
 
 
     "15": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -122,7 +122,7 @@ const data = {
 
 
     "17": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -132,7 +132,7 @@ const data = {
 
 
     "19": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -147,22 +147,22 @@ const data = {
 
 
     "22": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "23": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "24": {
-        "answer": "prophase"
+        "answer": "metaphase"
     },
 
 
     "25": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -172,32 +172,32 @@ const data = {
 
 
     "27": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "28": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "29": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "30": {
-        "answer": "prophase"
+        "answer": "anaphase"
     },
 
 
     "31": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "32": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
@@ -207,17 +207,17 @@ const data = {
 
 
     "34": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "35": {
-        "answer": "prophase"
+        "answer": "interphase"
     },
 
 
     "36": {
-        "answer": "prophase"
+        "answer": "metaphase"
     }
 
 }
@@ -323,57 +323,64 @@ class App extends React.Component{
 
           <div className={"cellResultList"}>
             <h1>Interphase</h1>
+              <img src={i2} style={{display: "none"}} id={"2"}/>
+              <img src={i3} style={{display: "none"}} id={"3"}/>
+              <img src={i6} style={{display: "none"}} id={"6"}/>
+              <img src={i8} style={{display: "none"}} id={"8"}/>
+              <img src={i9} style={{display: "none"}} id={"9"}/>
+              <img src={i11} style={{display: "none"}} id={"11"}/>
+              <img src={i13} style={{display: "none"}} id={"13"}/>
+              <img src={i15} style={{display: "none"}} id={"15"}/>
+              <img src={i17} style={{display: "none"}} id={"17"}/>
+              <img src={i19} style={{display: "none"}} id={"19"}/>
+              <img src={i22} style={{display: "none"}} id={"22"}/>
+              <img src={i23} style={{display: "none"}} id={"23"}/>
+              <img src={i25} style={{display: "none"}} id={"25"}/>
+              <img src={i27} style={{display: "none"}} id={"27"}/>
+              <img src={i28} style={{display: "none"}} id={"28"}/>
+              <img src={i29} style={{display: "none"}} id={"29"}/>
+              <img src={i31} style={{display: "none"}} id={"31"}/>
+              <img src={i32} style={{display: "none"}} id={"32"}/>
+              <img src={i34} style={{display: "none"}} id={"34"}/>
+              <img src={i35} style={{display: "none"}} id={"35"}/>
+
 
           </div>
           <div className={"cellResultList"}>
             <h1>Prophase</h1>
-              <img src={i1} style={{display: "none"}} id={"1"}/>
-              <img src={i2} style={{display: "none"}} id={"2"}/>
-              <img src={i3} style={{display: "none"}} id={"3"}/>
+
               <img src={i4} style={{display: "none"}} id={"4"}/>
-              <img src={i5} style={{display: "none"}} id={"5"}/>
-              <img src={i6} style={{display: "none"}} id={"6"}/>
               <img src={i7} style={{display: "none"}} id={"7"}/>
-              <img src={i8} style={{display: "none"}} id={"8"}/>
-              <img src={i9} style={{display: "none"}} id={"9"}/>
               <img src={i10} style={{display: "none"}} id={"10"}/>
-              <img src={i11} style={{display: "none"}} id={"11"}/>
               <img src={i12} style={{display: "none"}} id={"12"}/>
-              <img src={i13} style={{display: "none"}} id={"13"}/>
-              <img src={i14} style={{display: "none"}} id={"14"}/>
-              <img src={i15} style={{display: "none"}} id={"15"}/>
               <img src={i16} style={{display: "none"}} id={"16"}/>
-              <img src={i17} style={{display: "none"}} id={"17"}/>
               <img src={i18} style={{display: "none"}} id={"18"}/>
-              <img src={i19} style={{display: "none"}} id={"19"}/>
               <img src={i20} style={{display: "none"}} id={"20"}/>
               <img src={i21} style={{display: "none"}} id={"21"}/>
-              <img src={i22} style={{display: "none"}} id={"22"}/>
-              <img src={i23} style={{display: "none"}} id={"23"}/>
-              <img src={i24} style={{display: "none"}} id={"24"}/>
-              <img src={i25} style={{display: "none"}} id={"25"}/>
               <img src={i26} style={{display: "none"}} id={"26"}/>
-              <img src={i27} style={{display: "none"}} id={"27"}/>
-              <img src={i28} style={{display: "none"}} id={"28"}/>
-              <img src={i29} style={{display: "none"}} id={"29"}/>
-              <img src={i30} style={{display: "none"}} id={"30"}/>
-              <img src={i31} style={{display: "none"}} id={"31"}/>
-              <img src={i32} style={{display: "none"}} id={"32"}/>
               <img src={i33} style={{display: "none"}} id={"33"}/>
-              <img src={i34} style={{display: "none"}} id={"34"}/>
-              <img src={i35} style={{display: "none"}} id={"35"}/>
-              <img src={i36} style={{display: "none"}} id={"36"}/>
+
+
+
+
+
           </div>
           <div className={"cellResultList"}>
             <h1>Metaphase</h1>
+              <img src={i1} style={{display: "none"}} id={"1"}/>
+              <img src={i24} style={{display: "none"}} id={"24"}/>
+              <img src={i36} style={{display: "none"}} id={"36"}/>
 
           </div>
           <div className={"cellResultList"}>
             <h1>Anaphase</h1>
+              <img src={i5} style={{display: "none"}} id={"5"}/>
+              <img src={i30} style={{display: "none"}} id={"30"}/>
 
           </div>
           <div className={"cellResultList"}>
             <h1>Telophase</h1>
+              <img src={i14} style={{display: "none"}} id={"14"}/>
 
           </div>
 

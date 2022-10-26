@@ -1,11 +1,20 @@
 .cellResultList {
     max-width: 20%;
+    min-height: 200px;
     display: inline-block;
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
 }
 
 .cellResults {
     min-width: 2000px;
     overflow-x: scroll;
+    min-height: 100%;
 }
+
+body, html, .root, .App {
+    min-height: 100%
+}
+
