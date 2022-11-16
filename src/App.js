@@ -385,6 +385,7 @@ class App extends React.Component{
           </div>
 
             </div>
+            <a href={"https://github.com/Techman55/cellProjectPlusPlus"}><h5>Check out the Project on GitHub</h5></a>
         </div>
     );
   }
